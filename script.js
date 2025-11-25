@@ -7,9 +7,9 @@ function toggleMode() {
   //substituir  a imagem
   if (html.classList.contains("light")) {
     // se tiver ligth mode,  adicionar image light
-    img.setAttribute("src", "./assets/codecomigo-light.jpg")
+    img.setAttribute("src", "./assets/mapapro.png")
   } else {
     //se não tiver light mode, manter imagem normal
-    img.setAttribute("src", "./assets/codecomigo.png")
+    img.setAttribute("src", "./assets/mapapro.png")
   }
 }
